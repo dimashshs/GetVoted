@@ -1,0 +1,42 @@
+.form {
+  width: fit-content;
+  margin: 5px;
+  padding: 7px;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: auto;
+}
+.input-ac {
+  margin: 0.5em;
+  padding: 1em;
+  display: block;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+.label-ac {
+  display: block;
+  margin: 0.1em;
+  padding: 0.5em;
+}
+.btn-add {
+  width: 100%;
+  padding: 1em;
+  margin: 1em 0; /* Keep the top and bottom margin */
+  color: white; /* White text */
+  border: none; /* No border */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor */
+  float: right; /* Move the button to the right */
+}
+
+@media all and (max-width: 400px) {
+  .input-ac,
+  .btn-add {
+    width: 100%;
+  }
+  .btn-add {
+    float: inline-start;
+  }
+}
+

@@ -1,0 +1,51 @@
+
+
+.con {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.div-li {
+  margin-bottom: 15px; /* Добавлено расстояние между блоками */
+}
+
+.label-r {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 5px; /* Добавлено расстояние между меткой и полем ввода */
+}
+
+.input-r {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px; /* Добавлено расстояние между полем ввода и следующим блоком */
+}
+
+.btn-add {
+  width: 100%;
+  padding: 1em;
+  margin-top: 20px;
+  color: #fff;
+  background-color: #007bff;
+ 
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-add:hover {
+  background-color: #0056b3;
+}
+
+th, td {
+  width: 40%;
+  padding: 15px; 
+  text-align: left;
+  border-bottom: 1px solid #030303;
+  background-color: #E0FFFF;
+  
+}

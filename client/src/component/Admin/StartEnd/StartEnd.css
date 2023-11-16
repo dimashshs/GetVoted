@@ -1,0 +1,22 @@
+/* Startend.css */
+.start-btn button {
+  display: block;
+  padding: 21px;
+  margin: 7px;
+  min-width: max-content;
+  text-align: center;
+  width: 333px;
+  align-self: center;
+  border: none;
+  border-radius: 30px;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: white;
+  background-color: #007bff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.start-btn button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}

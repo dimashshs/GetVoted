@@ -1,0 +1,10 @@
+npm install -g truffle
+npm install -g ganache-cli
+
+ganache-cli
+
+truffle migrate
+
+cd client
+npm install
+npm start
